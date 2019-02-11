@@ -84,8 +84,9 @@ body {
 @media all and (max-width: 600px) {
   #main {
     margin: 5;
-    min-width: 90vw;
-    min-height: 90vh;
+    /*min-width: 90vw;
+    min-height: 90vh;*/
+    flex: 1;
     padding-top: 4em;
   }
   .butt {
