@@ -34,12 +34,6 @@ body {
   background-color: white;
 }
 
-
-#topButtons {
-  display: flex;
-  flex-flow: row;
-}
-
 #buttons {
   display: flex;
   flex-flow: row;
@@ -71,10 +65,6 @@ body {
   padding: 10px;
   margin: 5px;
   width: 95%;
-}
-
-.del {
-  width: 210%;
 }
 
 .butt:hover, .butt:focus, .butt:active {
