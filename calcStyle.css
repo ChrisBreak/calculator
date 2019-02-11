@@ -82,9 +82,8 @@ body {
   background-color: black;
 }
 
-  /*
-  @media all and (max-width: 600px) {
-      #main, #page {
-
-      }
-  } */
+@media all and (max-width: 600px) {
+  #main {
+    size: 100%;
+  }
+}
