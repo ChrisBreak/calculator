@@ -1,5 +1,7 @@
 html, body {
  box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
 }
 
 *, *:before, *:after { box-sizing: inherit; }
@@ -92,10 +94,12 @@ body {
 
 @media all and (max-width: 600px) {
   body {
-   min-width: 98vw;
-   min-height: 98vh;
+   /*min-width: 98vw;
+   min-height: 98vh;*/
   }
   #main {
+    min-width: 98vw;
+    min-height: 98vh;
     padding-top: 4em;
   }
   .butt {
