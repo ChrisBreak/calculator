@@ -83,7 +83,7 @@ body {
 }
 
 @media all and (max-width: 600px) {
-  #main {
+  body {
     size: 100%;
   }
 }
