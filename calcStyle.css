@@ -42,6 +42,7 @@ body {
 #inExp {
   margin: 10px;
   margin-top: 0px;
+  margin-bottom: 18px;
   padding: 10px;
   background-color: white;
 }
@@ -49,22 +50,27 @@ body {
 #buttons {
   display: flex;
   flex-flow: row;
+  flex-wrap: nowrap;
 }
 
 #leftCol {
   order: 1;
+  flex: 1;
 }
 
 #midLeftCol {
   order: 2;
+  flex: 1;
 }
 
 #midRightCol {
   order: 3;
+  flex: 1;
 }
 
 #rightCol {
   order: 4;
+  flex: 1;
 }
 
 .butt {
@@ -84,7 +90,6 @@ body {
   background-color: black;
 }
 
-
 @media all and (max-width: 600px) {
   body {
    min-width: 98vw;
@@ -93,4 +98,11 @@ body {
   #main {
     padding-top: 4em;
   }
+  .butt {
+    font-size: 14px;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
+
