@@ -35,7 +35,6 @@ body {
 #buttons {
   display: flex;
   flex-flow: column;
-  align-self: center;
 }
 
 .butt {
@@ -45,8 +44,8 @@ body {
   background-color: transparent;
   font-size: 20px;
   padding: 10px;
-  margin: 5px;
-  width: 20%;
+  margin: 3px;
+  width: 22%;
 }
 
 .butt:hover, .butt:focus, .butt:active {
