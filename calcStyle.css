@@ -1,8 +1,8 @@
-html, body, #main {
+/* html, body, #main {
  box-sizing: border-box;
  -webkit-box-sizing: border-box;
  -moz-box-sizing: border-box;
-}
+} */
 
 body {
   background-color: black;
@@ -11,7 +11,7 @@ body {
 }
 
 #main {
-  max-width: 60%;
+  max-width: 600px;
   padding: 1em;
   border-radius: 10px;
   background-image: linear-gradient(to top right, #C0C0C0, #33ccff);
