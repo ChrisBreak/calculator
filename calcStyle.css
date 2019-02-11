@@ -11,7 +11,7 @@ body {
 }
 
 #main {
-  max-width: 600px;
+  max-width: 60%;
   padding: 1em;
   border-radius: 10px;
   background-image: linear-gradient(to top right, #C0C0C0, #33ccff);
@@ -86,7 +86,7 @@ body {
     margin: 5;
     /*min-width: 90vw;
     min-height: 90vh;*/
-    flex: 1;
+    max-width: 100%;
     padding-top: 4em;
   }
   .butt {
