@@ -20,7 +20,7 @@ body {
 }
 
 #main {
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   max-width: 31.25em;
   min-width: 18.75em;
   padding: 1em;
@@ -98,6 +98,7 @@ body {
    min-height: 98vh;*/
   }
   #main {
+    margin: 0;
     min-width: 98vw;
     min-height: 98vh;
     padding-top: 4em;
