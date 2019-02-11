@@ -87,8 +87,8 @@ body {
 
 @media all and (max-width: 600px) {
   body {
-   min-width: 98%;
-   min-height: 98%;
+   min-width: 98vw;
+   min-height: 98vh;
   }
   #main {
     padding-top: 4em;
