@@ -1,28 +1,17 @@
-html, body {
+html, body, #main {
  box-sizing: border-box;
  -webkit-box-sizing: border-box;
  -moz-box-sizing: border-box;
 }
 
-*, *:before, *:after { box-sizing: inherit; }
-
-html {
-  height: 100%;
-  width: 100%;
-}
-
 body {
-  margin: 5px;
-  padding: 0;
   background-color: black;
   display: flex;
   justify-content: center;
 }
 
 #main {
-  /*margin: 0 auto;*/
-  max-width: 31.25em;
-  min-width: 18.75em;
+  max-width: 600px;
   padding: 1em;
   border-radius: 10px;
   background-image: linear-gradient(to top right, #C0C0C0, #33ccff);
@@ -93,14 +82,9 @@ body {
 }
 
 @media all and (max-width: 600px) {
-  body {
-   /*min-width: 98vw;
-   min-height: 98vh;*/
-  }
   #main {
-    margin: 0;
-    min-width: 98vw;
-    min-height: 98vh;
+    margin: 5;
+    min-height: 90vh;
     padding-top: 4em;
   }
   .butt {
