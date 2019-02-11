@@ -81,11 +81,12 @@ body {
   background-color: black;
 }
 
+/*
 @media all and (max-width: 600px) {
   #main {
     margin: 5;
-    /*min-width: 90vw;
-    min-height: 90vh;*/
+    min-width: 90vw;
+    min-height: 90vh;
     max-width: 100%;
     padding-top: 4em;
   }
@@ -95,5 +96,5 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
   }
-}
+} */
 
