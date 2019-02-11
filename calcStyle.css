@@ -1,37 +1,31 @@
-/* html, body, #main {
- box-sizing: border-box;
- -webkit-box-sizing: border-box;
- -moz-box-sizing: border-box;
-} */
 
 body {
-  background-color: black;
-  display: flex;
-  justify-content: center;
+  margin: 5;
+  font-family: Arial, Helvetica, sans-serif;
+  background: black;
 }
 
 #main {
-  max-width: 600px;
+  width: 90%;
+  height: 80vh;
   padding: 1em;
   border-radius: 10px;
   background-image: linear-gradient(to top right, #C0C0C0, #33ccff);
 }
 
 #displays {
-  display: flex;
-  flex-flow: column;
   font-size: 25px;
   text-align: right;
+  width: 90%;
 }
 
 #result {
-  margin-right: 10px;
+  margin-top: 20px;
   padding: 10px;
   color: darkblue;
 }
 
 #inExp {
-  margin: 10px;
   margin-top: 0px;
   margin-bottom: 18px;
   padding: 10px;
@@ -40,28 +34,8 @@ body {
 
 #buttons {
   display: flex;
-  flex-flow: row;
-  flex-wrap: nowrap;
-}
-
-#leftCol {
-  order: 1;
-  flex: 1;
-}
-
-#midLeftCol {
-  order: 2;
-  flex: 1;
-}
-
-#midRightCol {
-  order: 3;
-  flex: 1;
-}
-
-#rightCol {
-  order: 4;
-  flex: 1;
+  flex-flow: column;
+  align-self: center;
 }
 
 .butt {
@@ -69,11 +43,10 @@ body {
   border-radius: 10px;
   color: black;
   background-color: transparent;
-  font-family: Arial;
   font-size: 20px;
   padding: 10px;
   margin: 5px;
-  width: 95%;
+  width: 20%;
 }
 
 .butt:hover, .butt:focus, .butt:active {
@@ -81,20 +54,8 @@ body {
   background-color: black;
 }
 
-/*
-@media all and (max-width: 600px) {
+@media (min-width: 640px) {
   #main {
-    margin: 5;
-    min-width: 90vw;
-    min-height: 90vh;
-    max-width: 100%;
-    padding-top: 4em;
+    max-width: 600px;
   }
-  .butt {
-    font-size: 14px;
-    padding: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-} */
-
+}
