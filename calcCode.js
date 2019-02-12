@@ -1,17 +1,7 @@
 $(document).ready(function() {
   
-  $(document).on('touchstart', function() {
-    documentClick = true;
-  });
-  $(document).on('touchmove', function() {
-    documentClick = false;
-  });
-  
   $(".butt").on('click touchend', function(event) {
     
-    if (event.type == "click") documentClick = true;
-    
-    if (documentClick){
       if ($(this).html() == "C") {
         $("#inExp").html("_");
       }
@@ -43,6 +33,5 @@ $(document).ready(function() {
           $("#inExp").append($(this).html());
         }
       }
-    }
   });
 });
