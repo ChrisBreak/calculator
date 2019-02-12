@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $(".butt").on('click touch', function() {
+  $(".butt").on('click', function() {
     if ($(this).html() == "C") {
       $("#inExp").html("_");
     }
