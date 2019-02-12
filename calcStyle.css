@@ -8,6 +8,7 @@ body {
 #main {
   width: 90%;
   padding: 0.5em;
+  padding-bottom: 3em;
   border-radius: 10px;
   background-image: linear-gradient(to top right, #C0C0C0, #33ccff);
 }
