@@ -20,7 +20,7 @@ body {
 }
 
 #result {
-  margin-top: 20px;
+  margin-top: 28px;
   padding: 10px;
   color: darkblue;
 }
@@ -35,7 +35,6 @@ body {
 #buttons {
   display: flex;
   flex-flow: column;
-  padding: 0;
 }
 
 .butt {
@@ -45,7 +44,7 @@ body {
   background-color: transparent;
   font-size: 20px;
   padding: 10px;
-  margin: 5px 2px;
+  margin: 6px 0px;
   width: 20%;
 }
 
