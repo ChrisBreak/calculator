@@ -35,6 +35,7 @@ body {
 #buttons {
   display: flex;
   flex-flow: column;
+  padding: 0;
 }
 
 .butt {
