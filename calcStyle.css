@@ -8,7 +8,7 @@ body {
 #main {
   width: 90%;
   height: 80vh;
-  padding: 10px;
+  padding: 0.5em;
   border-radius: 10px;
   background-image: linear-gradient(to top right, #C0C0C0, #33ccff);
 }
@@ -44,8 +44,8 @@ body {
   background-color: transparent;
   font-size: 20px;
   padding: 10px;
-  margin: 3px;
-  width: 22%;
+  margin: 5px 2px;
+  width: 20%;
 }
 
 .butt:hover, .butt:focus, .butt:active {
