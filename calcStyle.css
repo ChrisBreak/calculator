@@ -10,7 +10,7 @@ body {
   padding: 0.5em;
   padding-bottom: 3em;
   border-radius: 10px;
-  background-image: linear-gradient(to top right, #C0C0C0, #33ccff);
+  background-image: linear-gradient(to top right, #1f4037, #99f2c8);
 }
 
 #displays {
@@ -51,7 +51,8 @@ body {
 
 .butt:hover, .butt:focus, .butt:active {
   color: white;
-  background-color: black;
+  background-image: linear-gradient(to top right, #240b36, #c31432);
+  border-color: #C0C0C0;
 }
 
 @media (min-width: 640px) {
