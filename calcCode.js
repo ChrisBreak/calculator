@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $(".butt").click(function() {
+  $(".butt").on('click touchstart', function() {
     if ($(this).html() == "C") {
       $("#inExp").html("_");
     }
