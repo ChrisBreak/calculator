@@ -14,7 +14,7 @@ body {
 }
 
 #displays {
-  box-sizing: border-box;
+  word-wrap: break-word;
   font-size: 25px;
   text-align: right;
   width: 85%;
