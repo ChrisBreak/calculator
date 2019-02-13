@@ -2,6 +2,8 @@ $(document).ready(function() {
   
   $(".butt").on('click touchend', function() {
     
+    setTimeout(function() { /*wait*/ }, 100);
+    
       if ($(this).html() == "C") {
         $("#inExp").html("_");
       }
