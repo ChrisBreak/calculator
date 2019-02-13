@@ -49,14 +49,14 @@ body {
   width: 20%;
 }
 
-.butt:hover, .butt:focus, .butt:active {
-  color: white;
-  background-image: linear-gradient(to top right, #240b36, #c31432);
-  border-color: #C0C0C0;
-}
-
 @media (min-width: 640px) {
   #main {
     max-width: 600px;
+  }
+  
+  .butt:hover, .butt:focus, .butt:active {
+    color: white;
+    background-image: linear-gradient(to top right, #240b36, #c31432);
+    border-color: #C0C0C0;
   }
 }
