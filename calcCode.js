@@ -2,9 +2,9 @@ $(document).ready(function() {
   
   $(".butt").on('click touchend', function(event) {
     
-    let pressedB = $(this);
     if (event.type == "touchend") {
       preventDefault();
+      let pressedB = $(this);
       pressedB.css("background-image", "linear-gradient(to top right, #240b36, #c31432)");
       pressedB.css("border-color", "#C0C0C0");
       pressedB.css("color", "white");
@@ -13,7 +13,7 @@ $(document).ready(function() {
         pressedB.css("background-image", "none");
         pressedB.css("border-color", "black");
         pressedB.css("color", "black");
-      }, 250);
+      }, 200);
     }
     
       if ($(this).html() == "C") {
