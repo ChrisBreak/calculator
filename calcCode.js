@@ -2,6 +2,10 @@ $(document).ready(function() {
   
   $(".butt").on('click touchend', function(event) {
     
+    if (event.type == "touchend") {
+      preventDefault();
+    }
+    
       if ($(this).html() == "C") {
         $("#inExp").html("_");
       }
