@@ -2,19 +2,6 @@ $(document).ready(function() {
   
   $(".butt").on('click touchend', function(event) {
     
-    let pressedB = $(this);
-    if (event.type == "touchend") {
-      $(this).css("background-image", "linear-gradient(to top right, #240b36, #c31432)");
-      $(this).css("border-color", "#C0C0C0");
-      $(this).css("color", "white");
-
-      setTimeout(function() {
-        pressedB.css("background-image", "none");
-        pressedB.css("border-color", "black");
-        pressedB.css("color", "black");
-      }, 250);
-    }
-    
       if ($(this).html() == "C") {
         $("#inExp").html("_");
       }
