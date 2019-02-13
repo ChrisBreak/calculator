@@ -2,11 +2,12 @@ $(document).ready(function() {
   
   $(".butt").on('click touchend', function(event) {
     
+    let pressedB = $(this);
     if (event.type == "touchend") {
       preventDefault();
-      $(this).css("background-image", "linear-gradient(to top right, #240b36, #c31432)");
-      $(this).css("border-color", "#C0C0C0");
-      $(this).css("color", "white");
+      pressedB.css("background-image", "linear-gradient(to top right, #240b36, #c31432)");
+      pressedB.css("border-color", "#C0C0C0");
+      pressedB.css("color", "white");
 
       setTimeout(function() {
         pressedB.css("background-image", "none");
