@@ -18,11 +18,11 @@ $(document).ready(function() {
       else if ($(this).html() == "=") {
         try {
           let result = eval($("#inExp").html());
-          $("#result").html($("#inExp").html() + " =");
+          $("#result").html($("#inExp").html() + " = " + result);
           $("#inExp").html(result);
         } catch (e) {
           if (e instanceof SyntaxError) {
-              $("#result").html($("#inExp").html() + " =ERROR");
+              $("#result").html($("#inExp").html() + " = ERROR");
               $("#inExp").html("_");
           }
         }
