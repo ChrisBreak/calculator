@@ -1,8 +1,16 @@
 $(document).ready(function() {
   
-  $(".butt").on('click touchend', function() {
+  $(".butt").on('click touchend', function(event) {
     
-    setTimeout(function() { /*wait*/ }, 100);
+    if (event.type == "touchend") {
+      $(this).background-image: linear-gradient(to top right, #240b36, #c31432);
+      $(this).border-color: #C0C0C0;
+    }
+    
+    setTimeout(function() {
+      $(this).background-color: transparent;
+      $(this).border-color: black;
+    }, 300);
     
       if ($(this).html() == "C") {
         $("#inExp").html("_");
